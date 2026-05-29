@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4b4f2f;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Montserrat;
+}
+.main-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/Background.png); /* Thay 'path/to/your/image.jpg' bằng đường dẫn hình ảnh của bạn */
+    background-size: cover; /* Điều chỉnh để hình ảnh bao phủ toàn bộ phần tử */
+    background-position: center; /* Đảm bảo hình ảnh ở giữa */
+}
+
+.register-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+.register-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.social-register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.social-register button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+.social-register button i {
+    margin-right: 10px;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+.divider::before {
+    margin-right: 10px;
+}
+.divider::after {
+    margin-left: 10px;
+}
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b4f2f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.register-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.google{
+    height: 15pt;
+    width: 15pt
+}
+.apple{
+    height: 19pt;
+    width: 19pt;
+}
+.facebook {
+    height: 15pt;
+    width: 15pt;
+}
+h2 {
+    height: 30pt;
+}
+h2, input, button, div {
+    font-family: Montserrat;
+}
+button{
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+body {
+    font-family: 'Montserrat', 'Playfair Display', serif;
+}
+.header {
+    background-color: #fdf5e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo img {
+    height: 60px;
+}
+.nav-menu {
+    display: flex;
+    gap: 15px;
+    font-family: playfair;
+    font-size: 20px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+.nav-menu a:hover {
+    background-color: #464E2E;
+    color: white;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: playfair;
+    width: 300px;
+}
+.username {
+    padding: 8px;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: playfair;
+}

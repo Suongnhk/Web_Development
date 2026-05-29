@@ -1,0 +1,235 @@
+/* Global Styles */
+/* Body Background */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background: url('https://i.pinimg.com/564x/c1/c5/a8/c1c5a85a36973c7df083550ec6d9169f.jpg') no-repeat center center fixed; /* Adjust the path if needed */
+    background-size: cover;
+    line-height: 1.6;
+}
+
+/* Overlay for content readability */
+h1, h2 {
+    font-family: 'Montserrat', serif;
+    color: #0c5610;
+}
+
+
+
+/* Header Styling */
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo-img {
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
+.nav-menu a {
+    color: #4c3a1e;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #2e7d32;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-right .account-icon,
+.header-right .search-icon-img,
+.header-right .cart-icon-img {
+    width: 35px;
+    margin-left: 15px;
+}
+
+.header-right .search-bar {
+    width: 250px;
+    padding: 8px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.header-right .search-bar:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 58, 30, 0.2);
+}
+
+/* Main Content Section */
+.main-content {
+    padding: 3rem 0;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.main-content section {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: none; /* Remove all shadows */
+    border: none; /* Ensure no border is applied */
+}
+.main-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4d4647;
+    margin-bottom: 1.5rem;
+}
+
+.main-content p, .main-content ul {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.main-content ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+/* Form Styling */
+.main-content form {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.main-content form label {
+    font-weight: bold;
+    color: #4d4647;
+    font-size: 1.1rem;
+}
+
+.main-content form select,
+.main-content form input,
+.main-content form button {
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.main-content form select:focus,
+.main-content form input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+}
+
+.main-content form button {
+    background: linear-gradient(90deg, #66bb6a, #43a047);
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 10px rgba(67, 160, 71, 0.2);
+    transition: all 0.3s ease;
+}
+
+.main-content form button:hover {
+    background: #2e7d32;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(46, 125, 50, 0.3);
+}
+
+/* Exercise Level Buttons */
+.exercise-levels button {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #fafafa;
+    font-weight: bold;
+    color: #4d4647;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.exercise-levels button.selected {
+    background-color: #4CAF50;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.2);
+}
+
+.exercise-levels button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+/* TDEE Info Box */
+.tdee-info {
+    border: 1px solid #f8e622;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.tdee-info:hover {
+    box-shadow: 0 8px 20px rgba(251, 240, 137, 0.2);
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 1.5rem;
+}
+
+/* Custom Select Dropdown */
+.custom-select {
+    background-color: #494f4f;
+    color: #f5b400;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    appearance: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-select:hover {
+    background-color: #3d3d3d;
+}
+
+/* Result Box Styling */
+#tdee-result {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #16a34a;
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(67, 160, 71, 0.1);
+}
+button {
+    box-shadow: none; /* Ensure no shadow for buttons */
+    transition: background-color 0.3s ease;
+}

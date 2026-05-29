@@ -1,0 +1,61 @@
+.fresh-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.section-title {
+    font-size: 3em;
+    color: #A72B0C;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: playfair;
+}
+
+.section-subtitle {
+    font-size: 1.2em;
+    color: #6f5f47;
+    margin-bottom: 40px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #f2efe8;
+    border-radius: 8px;
+    width: 270px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px; /* Ensures uniform height for all cards */
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.4;
+}

@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/564x/31/c4/45/31c44545a6b6c574dd6b1adfc78b8308.jpg) no-repeat center center fixed; /* Unified background image, covering full viewport */
+    background-size: cover; /* Ensure the image covers the entire background */
+    line-height: 1.6;
+    color: #333;
+}
+
+.eat-clean-blog {
+    max-width: 1300px; /* Increase the width of the blog section */
+    margin: 50px auto;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background to make text easier to read */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 25px; /* Rounded corners for a softer look */
+    animation: slideIn 1.2s ease-in-out; /* Smooth slide-in animation */
+}
+
+.blog-title {
+    font-size: 50px;
+    text-align: center;
+    color: #1b5e20; /* Rich green color for emphasis */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* Make the title pop */
+}
+
+.blog-subtitle {
+    font-size: 34px;
+    text-align: center;
+    color: #388e3c; /* Vibrant green for a lively subtitle */
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.blog-description {
+    font-size: 22px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.8;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.7);
+    border-left: 10px solid #43a047; /* Highlight with a thicker left border in vibrant green */
+    border-radius: 15px;
+}
+
+.blog-content h3 {
+    font-size: 32px; /* Increase font size for emphasis */
+    font-weight: bold;
+    color: #2e7d32; /* Darker green for headings */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #66bb6a; /* Thicker bottom border for emphasis */
+    padding-bottom: 15px;
+}
+
+.blog-content h3::before {
+    content: '🍃'; /* Use a leaf emoji for an organic feel */
+    margin-right: 15px;
+    font-size: 28px;
+    animation: bounce 1.5s infinite; /* Add bounce animation to the icon */
+}
+
+.blog-content p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+.blog-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.blog-content ul li {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out; /* Add fade-in animation */
+}
+
+.blog-content ul li::before {
+    content: '✔️'; /* Use a checkmark emoji for bullet points */
+    color: #43a047;
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.blog-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /* Increase gap between images */
+    margin: 50px 0;
+}
+
+.blog-images img {
+    width: 48%;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.blog-images img:hover {
+    transform: scale(1.15); /* Increase zoom effect for more emphasis */
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3); /* Make shadow more pronounced */
+}
+
+.read-more {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #43a047; /* Vibrant green for the button */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.read-more:hover {
+    background-color: #2e7d32; /* Darker shade on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    transform: translateY(-7px); /* Lift the button on hover for more interaction */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+.pagination a {
+    padding: 15px 25px; /* Increase padding for a more comfortable look */
+    background-color: #43a047;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 700;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.pagination a:hover {
+    background-color: #2e7d32;
+    transform: translateY(-5px); /* Add lift effect on hover */
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

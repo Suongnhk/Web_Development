@@ -1,0 +1,218 @@
+<html>
+<head>
+    <title>Weekly Meal Plan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styleThucDon.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Top Banner -->
+    <div class="top-banner">
+        CÙNG CHÚNG TÔI TẬN HƯỞNG GRAND OPENING VỚI NHIỀU ƯU ĐÃI VÔ CÙNG HẤP DẪN!!!
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="hinh/Fit & Fresh Logo.png" alt="Fit & Fresh" style="height: 70px; width: 120px;">
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">SẢN PHẨM</a>
+            <a href="#">THỰC ĐƠN</a>
+            <a href="#">BLOGS/ TIN TỨC</a>
+            <a href="#">FAQs</a>
+            <a href="#">ĐÁNH GIÁ</a>
+        </nav>
+
+        <!-- Search and Cart Section -->
+        <div class="header-right">
+            <a href="">
+                <i class="cart-icon"><img src="hinh/account.png" style="width: 40px;"></i>
+            </a>
+            <div class="username">Username</div>
+            <input type="text" class="search-bar" placeholder="Bạn muốn tìm gì?">
+            <a href="">
+                <i class="search-icon"><img src="hinh/search.png" style="width: 40px;"></i>
+            </a>
+            <a href="">
+                <i class="cart-icon"><img src="hinh/cart.png" style="width: 50px;"></i>
+            </a>
+        </div>
+    </header>
+    <div class="w-full bg-white shadow-md">
+        <div class="relative">
+            <img src="hinh/anh.jpeg" alt="A bowl of healthy food with vegetables and grains" class="w-full h-64 object-cover">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-50">
+                <h1 class="text-lg">WEEKLY MEAL PLAN</h1>
+                <h2 class="text-4xl font-bold">7.10 → 11.10</h2>
+                <button class="mt-4 px-6 py-2 green text-white rounded">Đặt Ngay</button>
+            </div>
+        </div>
+        <div class="p-8">
+            <h2 class="text1-red-600 text-2xl font-bold mb-4">THỰC ĐƠN</h2>
+            <hr class="custom-hr"/>
+            <br/>
+            <p class="mb-6">Từng bữa ăn được thiết kế bởi bếp trưởng cùng đội ngũ dinh dưỡng để đảm bảo được sự cân bằng trong hương vị nhưng vẫn giữ được chất lượng ở mức cao nhất. Tất cả các món đều đảm bảo ko bột ngọt và ít đường.</p>
+            <br/>
+            <br/>
+            <br/>
+            <div class="flex justify-between items-center mb-4">
+                <div class="text-gray-500 tuan">
+                    <i class="fas fa-chevron-left"></i> TUẦN TRƯỚC
+                </div>
+                <div class="text-lg font-bold">7.10 → 11.10</div>
+                <div class="text-gray-500 tuan">
+                    TUẦN SAU <i class="fas fa-chevron-right"></i>
+                </div>
+                <button class="px-6 py-2 green text-white rounded">Đặt Ngay</button>
+            </div>
+            <div class="bg-gray-200 p-4 rounded-lg">
+                <br/>
+                <div class="grid grid-cols-4 text-center font-bold text-gray-1500">
+                    <div>NGÀY</div>
+                    <div>SÁNG</div>
+                    <div>TRƯA</div>
+                    <div>TỐI</div>
+                </div>
+                <br/>
+                <div class="mt-4">
+                    <!-- Content for each day's meal -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T2</div>
+                            <div>7.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">CƠM LỨT GÀ XÔNG KHÓI</div>
+                            <div>Brown Rice with Smoked Chicken</div>
+                            <div class="text-red-600">426 Kcal | 17, 30, 22</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SALAD THẬP CẨM</div>
+                            <div>Mixed Salad</div>
+                            <div class="text-red-600">480 Kcal | 45, 20, 30</div>                          
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**CANH RAU TẬP TÀNG** (NEW)</div>
+                            <div>**Mixed vegetable Soup** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                535 Kcal | 46, 19, 33 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tuesday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T3</div>
+                            <div>8.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SALAD TRÁI CÂY</div>
+                            <div>Fruit Salad</div>
+                            <div class="text-red-600">430 Kcal | 40, 32, 25</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**CANH BÍ CHANH** (NEW)</div>
+                            <div>**Squash Soup** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                375 Kcal | 40, 15, 28 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">BÚN LỨT TÔM HẤP</div>
+                            <div>Steamed Brown Rice Noodles with Shrimp</div>
+                            <div class="text-red-600">571 Kcal | 30, 25, 43</div>
+                        </div>
+                    </div>
+                    <!-- Wednesday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T4</div>
+                            <div>9.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SALAD LƯỜN NGỖNG XÔNG KHÓI</div>
+                            <div>Smoked Goose Breast Salad</div>
+                            <div class="text-red-600">536 Kcal | 40, 21, 35</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">CƠM LỨT GÀ ÁP CHẢO</div>
+                            <div>Pan Fried Chicken Brown Rice</div>
+                            <div class="text-red-600">460 Kcal | 30, 19, 40</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**CANH RONG BIỂN** (NEW)</div>
+                            <div>**Seaweed Soup** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                580 Kcal | 40, 30, 37 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Thursday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T5</div>
+                            <div>10.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**BÚN LỨT CÁ HỒI NƯỚNG** (NEW)</div>
+                            <div>**Grilled Salmon Brown Rice Noodles** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                390 Kcal | 45, 7, 34 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SALAD CÁ NGỪ</div>
+                            <div>Tuna Salad</div>
+                            <div class="text-red-600">510 Kcal | 35, 25, 24</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SÚP BÍ ĐỎ</div>
+                            <div>Pumpkin Soup</div>
+                            <div class="text-red-600">480 Kcal | 38, 23, 30</div>
+                        </div>
+                    </div>
+                    <!-- Friday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T6</div>
+                            <div>11.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**SALAD THẬP CẨM** (SOUP)</div>
+                            <div>**Mixed Salad** (SOUP)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                380 Kcal | 18, 24, 23 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">CƠM LỨT THỊT BÒ</div>
+                            <div>Beef with Brown Rice</div>
+                            <div class="text-red-600">510 Kcal | 28, 25, 32</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**KIMBAP CUỘN CƠM GẠO LỨT** (NEW)</div>
+                            <div>**Brown Rice Kimbap**(NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                593 Kcal | 17, 24, 43 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="mt-6">
+                <h3 class="text-red-600 text-lg font-bold note">Note</h3>
+                <p class="text-gray-700 mt-2">Các phần ăn được tính toán calories cẩn thận. Chỉ số dinh dưỡng dưới tên phần ăn được liệt kê theo thứ tự Năng lượng (Kcal/Calories), Tinh Bột, Chất béo và Chất đạm.</p>
+                <p class="text-gray-700 mt-2">Lưu ý: Các phần ăn của FIT&FRESH luôn được giao lạnh, đựng trong hộp nhựa thân thiện với lò vi sóng. Vui lòng bảo quản lạnh sau khi nhận hàng và hâm nóng từ 2-3 phút trước khi dùng.</p>
+                <p class="text-gray-700 mt-2">Phần ăn bình thường chỉ bao gồm thịt và rau củ, Tinh bột phức (gạo lức, gạo nâu, mì rau củ, bún, bánh mì nâu) sẽ được gửi kèm trong phần ăn có ghi chú dấu (+).</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

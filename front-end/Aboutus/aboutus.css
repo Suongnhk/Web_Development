@@ -1,0 +1,228 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/564x/ea/78/9f/ea789ff3bc0df691308a2aab066c43fb.jpg) no-repeat center center fixed;
+    background-size: cover; /* This ensures the background covers the entire page and is seamless */
+    color: #333;
+}
+
+.top-banner {
+    background-color: rgba(76, 58, 30, 0.85); /* Adding slight transparency to avoid breaking the seamless background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: 'Rhodium Libre', serif;
+}
+
+/* About Section */
+.about-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 50px;
+    background: linear-gradient(135deg, #f0f7f4, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    color: #2e7d32;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #388e3c;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-section p {
+    font-size: 17px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.story-section img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.story-section img:hover {
+    transform: scale(1.05);
+}
+
+
+.cta-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #43a047;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta-link:hover {
+    background-color: #2e7d32;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.story-section {
+    width: 100%;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #e8f5e9;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.story-section img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.story-section img:hover {
+    transform: scale(1.05);
+}
+
+.story-section h2 {
+    font-size: 28px;
+    color: #4c3a1e;
+    margin-bottom: 20px;
+}
+
+.story-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 900px;
+}
+
+/* Weight Loss Section */
+.weight-loss-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.weight-loss-section h2 {
+    font-size: 28px;
+    color: #4c3a1e;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.weight-loss-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    font-size: 14pt;
+}
+
+
+.content-left {
+    flex: 1;
+    text-align: center;
+}
+
+.content-left h3 {
+    font-size: 24px;
+    color: #66bb6a;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.content-left img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.content-right {
+    flex: 1;
+    text-align: center;
+}
+
+.content-right h3 {
+    font-size: 24px;
+    color: #66bb6a;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.content-right img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.feature {
+    background-color: #f0f4c3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.top-banner {
+    background-color: #4c3a1e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: 'Rhodium Libre', serif;
+}
+
+.about-banner {
+    background-image: url("hinh/Poster5.png");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Rhodium Libre', serif;
+}
+
+.about-banner img {
+    width: 100%;
+    height: auto;
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Banner */
+.top-banner {
+    background-color: #4c3a1e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: Rhodium Libre;
+}
+
+/* Header */
+.header {
+    background-color: #fdf5e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Logo */
+.logo img {
+    height: 60px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    gap: 15px;
+    font-family: playfair;
+    font-size:20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #464E2E;
+    color: white;
+}
+
+/* Search and Cart */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: playfair;
+    width: 200px;
+}
+
+.username {
+    padding: 8px;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: playfair;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.faq-header {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+.container {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.faq-content {
+    background-color: #e5e7eb;
+    padding: 3rem 0;
+}
+
+.faq-item {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-answer {
+    margin-top: 0.5rem;
+    color: #4b5563;
+}
+
+.cta-section {
+    background-color: #d1fae5;
+    padding: 3rem 0;
+}
+
+.order-steps {
+    background-color: #065f46;
+    padding: 3rem 0;
+    color: #ffffff;
+}
+
+.order-step {
+    background-color: #064e3b;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.faq-header {
+    background-image: url('hinh/nen.png'); /* Update with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+    text-align: center;
+    color: #ffffff; /* Set text color to ensure readability */
+}
+
+.faq-header h1, .faq-header p {
+    color: #362706; /* Ensure the text is visible on the background */
+}
+.faq-header h2{
+    color: #A6B37D;
+    font-size: x-large;
+}
+.background{
+    background-color: #E9E5D6;
+}
+.slogan{
+    color: #464E2E;
+    text-align: center;
+}
+.cachdathang{
+    background-color: #362706;
+}
+.step{
+    background-color: #E9E5D6;
+}
+.STEP1{
+    color: #362706;
+}
+.step2{
+    color: grey;
+    font-size: small;
+}
+
+.order-step {
+    display: flex;
+    align-items: start;
+    gap: 16px; /* Điều chỉnh khoảng cách theo ý muốn, ví dụ: 20px hoặc 24px */
+}
+.order-steps {
+    background-color: #065f46;
+    color: #ffffff;
+}
+
+.order-step {
+    background-color: #064e3b;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.image-container {
+    flex: 0 0 30%;
+}
+
+.text-container {
+    flex: 0 0 70%;
+    text-align: left;
+}
+
+.text-container h3,
+.text-container p {
+    margin: 0;
+}
+
+
+
+
+

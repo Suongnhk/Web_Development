@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIT&FRESH Blog Page</title>
+    <link rel="stylesheet" href="CSS/footer.css" type="text/css">
+</head>
+<!-- Footer -->
+<div class="footer">
+    <div class="footer-container">
+        <!-- Social Media and Contact Info -->
+        <div class="footer-column contact-info">
+            <h3>THEO DÕI CHÚNG TÔI TẠI</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61566966247866"><img src="icon/4102573_applications_facebook_media_social_icon.png" alt="Facebook" width="30"></a>
+                <a href="#"><img src="icon/1161953_instagram_icon.png" alt="Instagram" width="30"></a>
+            </div>
+            <div>
+                <img src="icon/510927_location_map_marker_navigation_pin_icon.png" alt="Location" width="30">
+                <span>669 QL1, Khu phố 3, Phường Linh Xuân, Thủ Đức.</span>
+            </div>
+            <div>
+                <img src="icon/9025726_phone_icon.png" alt="Phone" width="30">
+                <span>(+84) 932 788 120</span>
+            </div>
+            <div>
+                <img src="icon/115714_email_send_mail_icon.png" alt="Email" width="30">
+                <span>fitfreshvn2004@gmail.com</span>
+            </div>
+        </div>
+
+        <!-- Product Categories -->
+        <div class="footer-column">
+            <h3>SẢN PHẨM</h3>
+            <a href="#">Bữa ăn healthy</a>
+            <a href="#">Thức uống healthy</a>
+            <a href="#">Sữa hạt healthy</a>
+            <a href="#">Snack healthy</a>
+            <a href="#">Các loại hạt</a>
+        </div>
+
+        <!-- About Section -->
+        <div class="footer-column">
+            <h3>VỀ FIT&FRESH.VN</h3>
+            <a href="Aboutus.html">About us</a>
+            <a href="blogmain.html">Blog/Tin tức</a>
+        </div>
+
+        <!-- Support Policies -->
+        <div class="footer-column">
+            <h3>CHÍNH SÁCH HỖ TRỢ</h3>
+            <a href="#">FAQs - Giải đáp thắc mắc</a>
+            <a href="#">Chính Sách Quy Định Chung</a>
+            <a href="#">Quy Định Hình Thức Thanh Toán</a>
+            <a href="#">Chính Sách Vận Chuyển Giao Hàng</a>
+            <a href="#">Chính Sách Bảo Mật Thông Tin</a>
+        </div>
+
+        <!-- Subscribe Section -->
+        <div class="footer-column subscribe">
+            <h3>ĐĂNG KÝ NHẬN MAIL</h3>
+            <input type="text" id="emailInput" placeholder="Đăng ký để nhận ưu đãi">
+            <button id="subscribeButton">ĐĂNG KÝ</button>
+            <!-- Success message container -->
+            <div id="successMessage" style="display: none; color: #e6e6e6; margin-top: 10px;"></div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('subscribeButton').addEventListener('click', function() {
+            const emailInput = document.getElementById('emailInput').value;
+            const successMessage = document.getElementById('successMessage');
+            if (emailInput) {
+                successMessage.textContent = 'Bạn đã đăng ký thành công';
+                successMessage.style.display = 'block';
+            } else {
+                successMessage.textContent = 'Vui lòng nhập email trước khi đăng ký';
+                successMessage.style.display = 'block';
+            }
+        });
+    </script>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        Copyright &copy; 2022 FIT&FRESH.VN. All rights reserved.
+    </div>
+    <img src="https://cdn1.iconfinder.com/data/icons/happy-trees/100/tree-green-nature-curly-512.png" alt="Tree Icon" class="tree-icon">
+</div>
+</body>
+</html>

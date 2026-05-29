@@ -1,0 +1,276 @@
+<html>
+<head>
+    <title>Thanh toán - FIT&FRESH</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        CÙNG CHÚNG TÔI TẬN HƯỞNG GRAND OPENING VỚI NHIỀU ƯU ĐÃI VÔ CÙNG HẤP DẪN!!!
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="hinh/Fit & Fresh Logo.png" alt="Fit & Fresh" style="height: 70px; width: 120px;">
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">SẢN PHẨM</a>
+            <a href="#">THỰC ĐƠN</a>
+            <a href="#">BLOGS/ TIN TỨC</a>
+            <a href="#">FAQs</a>
+            <a href="#">ĐÁNH GIÁ</a>
+        </nav>
+
+        <!-- Search and Cart Section -->
+        <div class="header-right">
+            <a href="">
+                <i class="cart-icon"><img src="hinh/account.png" style="width: 40px;"></i>
+            </a>
+            <div class="username">Username</div>
+            <input type="text" class="search-bar" placeholder="Bạn muốn tìm gì?">
+            <a href="">
+                <i class="search-icon"><img src="hinh/search.png" style="width: 40px;"></i>
+            </a>
+            <a href="">
+                <i class="cart-icon"><img src="hinh/cart.png" style="width: 50px;"></i>
+            </a>
+        </div>
+    </header>
+    <section class="checkout-container">
+        <h1 class="checkout-title">Thanh toán</h1>
+        <h3 class="checkout-subtitle"><img src="icon/4200779_address_location_map_navigation_icon.png" class="map"/> &nbsp;Thông tin và địa chỉ nhận hàng</h3>
+        <form class="address-form">
+            <input type="text" placeholder="Email hoặc mã vận đơn" />
+            <input type="text" placeholder="Họ và tên" />
+            <input type="text" placeholder="Số điện thoại" />
+            <input type="text" placeholder="Địa chỉ" />
+            <select>
+                <option value="">Quận</option>
+                <!-- Các tùy chọn quận -->
+            </select>
+            <select>
+                <option value="">Tên đường</option>
+                <!-- Các tùy chọn đường -->
+            </select>
+        </form>
+        
+        <div class="product-info">
+            <h3 class="h31">FIT&FRESH</h3>
+            <div class="product-card">
+                <img src="hinh/Salad tôm.png" alt="Salad tôm">
+                <div class="product-details">
+                    <p class="product-name">🥗 Sản phẩm: Salad tôm</p>
+                    <p class="product-description">Tôm tươi hấp hoặc nướng, kết hợp với các loại rau như xà lách, cà chua, dưa chuột, và bơ.</p>
+                    <p class="product-price">75.000 VND/phần</p>
+                    <label for="quantity" class="short-label">Số lượng</label>
+                    <input type="number" id="quantity" value="1" />
+                </div>
+            </div>
+        </div>
+
+        <div class="insurance-section">
+            <input type="checkbox" id="insurance">
+            <label for="insurance"><b>Bảo hiểm thiệt hại sản phẩm</b></label>
+            <span class="insurance-price">₫289 x 1</span>
+            <div class="insurance-description">
+                Bảo vệ sản phẩm được bảo hiểm khỏi thiệt hại do sự cố bất ngờ, tiếp xúc với chất lỏng hoặc hư hỏng trong quá trình sử dụng.
+            </div>
+        </div>
+
+        <section class="voucher-payment">
+            <div class="voucher-header">
+                <i class="voucher-icon"><img class="anhvoucher" src="icon/8689178_discount_voucher_coupon_sales_marketing_icon.png"/></i>
+                &nbsp; &nbsp;
+                <div>Voucher của shop</div>
+                <button class="select-code">Chọn hoặc nhập mã &raquo;</button>
+            </div>
+            <div class="voucher-section">
+            
+                <div class="voucher-body">
+                    <h4><img class="saleicon" src="icon/91828_sale_icon.png"/>&nbsp; &nbsp;Danh sách mã giảm giá hiện có</h4>
+                    <ul class="voucher-list">
+                        <li><i class="voucher-item-icon"></i><img class="saleicon1" src="icon/3702395_coupon_discount_sale_voucher_icon.png"/>&nbsp; &nbsp;Giảm 15k cho đơn hàng có giá trị trên 100k (Mã: GIAM15).</li>
+                        <li><i class="voucher-item-icon"></i><img class="saleicon1" src="icon/3702395_coupon_discount_sale_voucher_icon.png"/>&nbsp; &nbsp;Giảm 35k cho đơn hàng có giá trị trên 200k (Mã: GIAM35).</li>
+                        <li><i class="voucher-item-icon"></i><img class="saleicon1" src="icon/3702395_coupon_discount_sale_voucher_icon.png"/>&nbsp; &nbsp;Giảm 50k cho đơn hàng có giá trị trên 300k (Mã: GIAM50).</li>
+                        <li><i class="voucher-item-icon"></i><img class="saleicon1" src="icon/3702395_coupon_discount_sale_voucher_icon.png"/>&nbsp; &nbsp;Giảm 70k cho đơn hàng có giá trị trên 500k (Mã: GIAM70).</li>
+                    </ul>
+                </div>
+
+                <div class="payment-method">
+                    <h4>Chọn phương thức thanh toán</h4>
+                    <div class="payment-options">
+                        <label>
+                            <input type="radio" name="payment-method">
+                            <span>Thanh toán qua Momo</span>
+                            <img src="icon/momo.png" alt="Momo">
+                        </label>
+                        <label>
+                            <input type="radio" name="payment-method">
+                            <span>Chuyển khoản ngân hàng</span>
+                            <img src="icon/vnpay.png" alt="Bank">
+                        </label>
+                        <label>
+                            <input type="radio" name="payment-method">
+                            <span>Thanh toán khi nhận hàng</span>
+                            <img src="icon/cod.png" alt="Cash">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Icon của phương thức vận chuyển -->
+            <div class="icon">
+                <img alt="Shipping icon" class="truck" src="icon/truck.png"/>
+            </div>
+            
+            <!-- Tiêu đề của phần vận chuyển -->
+            <div class="title">
+                Phương thức vận chuyển
+            </div>
+            
+            <!-- Phần giá của phương thức vận chuyển -->
+            <div class="price-section">
+                
+                <!-- Icon tiền tệ -->
+                <div class="currency">
+                    <img alt="Currency icon" src="icon/ptvc.png" class="ptvc"/>
+                </div>
+                
+                <!-- Giá gốc của phương thức vận chuyển -->
+                <div class="original-price">
+                    đ16.000
+                </div>
+                
+                <!-- Giá đã giảm của phương thức vận chuyển -->
+                <div class="discounted-price">
+                    đ8.500
+                </div>
+            </div>
+        
+            <!-- Clear float để căn chỉnh chính xác các thành phần -->
+            <div style="clear: both;"></div>
+            
+            <!-- Mô tả của phương thức vận chuyển -->
+            <div class="description">
+                <b class="nhanh">Nhanh</b><br/>
+                Đảm bảo nhận hàng vào ngày mai.
+            </div>
+            
+            <!-- Ghi chú bổ sung -->
+            <div class="note">
+                Hoặc chọn Hỏa tốc để Đảm bảo nhận hàng vào hôm nay
+            </div>
+        </div>
+        
+        <div class="cart">
+            <i class="donhang"><img class="donhang" src="icon/9021544_shopping_cart_bold_icon.png"/></i>
+            &nbsp; &nbsp;
+            <div>Đơn hàng (1 sản phẩm)</div>
+            <button class="select-code">Chọn hoặc nhập mã &raquo;</button>
+        </div>
+
+        <div class="order-summary">
+            <div class="order-content">
+                <img src="hinh/Salad tôm.png" alt="Salad tôm">
+                <div class="summary-details">
+                    <h4>HÓA ĐƠN THANH TOÁN</h4>
+                    <ul>
+                        <li>Tổng tiền hàng: <span>75.000đ</span></li>
+                        <li>Tổng phí vận chuyển: <span>8.500đ</span></li>
+                        <li>Giảm giá: <span>0đ</span></li>
+                        <li><strong>Tổng tiền thanh toán:</strong> <span><strong>83.500đ</strong></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="checkout-button">Đặt hàng</button>
+    </section>
+    <!-- Footer Section -->
+<div class="footer">
+    <div class="footer-container">
+        <!-- Social Media and Contact Info -->
+        <div class="footer-column contact-info">
+            <h3>THEO DÕI CHÚNG TÔI TẠI</h3>
+            <div class="social-icons>
+            <a href="#"><img src="icon/4102573_applications_facebook_media_social_icon.png" alt="Facebook" width="30"></a>
+            <a href="#"><img src="icon/1161953_instagram_icon.png" alt="Instagram" width="30"></a>
+            </div>
+            <div>
+                <img src="icon/510927_location_map_marker_navigation_pin_icon.png" alt="Location" width="30">
+                <span>669 QL1, Khu phố 3, Phường Linh Xuân, Thủ Đức.</span>
+            </div>
+            <div>
+                <img src="icon/9025726_phone_icon.png" alt="Phone" width="30">
+                <span>(+84) 932 788 120</span>
+            </div>
+            <div>
+                <img src="icon/115714_email_send_mail_icon.png" alt="Email" width=30>
+                <span>fitfreshvn2004@gmail.com</span>
+            </div>
+        </div>
+
+        <!-- Product Categories -->
+        <div class="footer-column">
+            <h3>SẢN PHẨM</h3>
+            <a href="#">Bữa ăn healthy</a>
+            <a href="#">Thức uống healthy</a>
+            <a href="#">Sữa hạt healthy</a>
+            <a href="#">Snack healthy</a>
+            <a href="#">Các loại hạt</a>
+        </div>
+
+        <!-- About Section -->
+        <div class="footer-column">
+            <h3>VỀ FIT&FRESH.VN</h3>
+            <a href="#">About us</a>
+            <a href="#">Blog/Tin tức</a>
+        </div>
+
+        <!-- Support Policies -->
+        <div class="footer-column">
+            <h3>CHÍNH SÁCH HỖ TRỢ</h3>
+            <a href="#">FAQs - Giải đáp thắc mắc</a>
+            <a href="#">Chính Sách Quy Định Chung</a>
+            <a href="#">Quy Định Hình Thức Thanh Toán</a>
+            <a href="#">Chính Sách Vận Chuyển Giao Hàng</a>
+            <a href="#">Chính Sách Bảo Mật Thông Tin</a>
+        </div>
+
+        <!-- Subscribe Section -->
+        <div class="footer-column subscribe">
+            <h3>ĐĂNG KÝ NHẬN MAIL</h3>
+            <input type="text" id="emailInput" placeholder="Đăng ký để nhận ưu đãi">
+            <button id="subscribeButton">ĐĂNG KÝ</button>
+            <!-- Success message container -->
+            <div id="successMessage" style="display: none; color: #e6e6e6; margin-top: 10px;"></div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('subscribeButton').addEventListener('click', function() {
+        const emailInput = document.getElementById('emailInput').value;
+        const successMessage = document.getElementById('successMessage');
+        if (emailInput) {
+            successMessage.textContent = 'Bạn đã đăng ký thành công';
+            successMessage.style.display = 'block';
+        } else {
+            successMessage.textContent = 'Vui lòng nhập email trước khi đăng ký';
+            successMessage.style.display = 'block';
+        }
+});
+    </script>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        Copyright © 2022 FIT&FRESH.VN. All rights reserved.
+    </div>
+    <img src="https://cdn1.iconfinder.com/data/icons/happy-trees/100/tree-green-nature-curly-512.png" alt="Tree Icon" class="tree-icon">
+</div>
+</body>
+</html>

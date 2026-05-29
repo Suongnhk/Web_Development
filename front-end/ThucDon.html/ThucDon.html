@@ -1,0 +1,298 @@
+<html>
+<head>
+    <title>Weekly Meal Plan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styleThucDon.css">
+    <link type="text/css" rel="stylesheet" href="footer.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Top Banner -->
+    <div class="top-banner">
+        CÙNG CHÚNG TÔI TẬN HƯỞNG GRAND OPENING VỚI NHIỀU ƯU ĐÃI VÔ CÙNG HẤP DẪN!!!
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="hinh/Fit & Fresh Logo.png" alt="Fit & Fresh" style="height: 70px; width: 120px;">
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">SẢN PHẨM</a>
+            <a href="#">THỰC ĐƠN</a>
+            <a href="#">BLOGS/ TIN TỨC</a>
+            <a href="#">FAQs</a>
+            <a href="#">ĐÁNH GIÁ</a>
+        </nav>
+
+        <!-- Search and Cart Section -->
+        <div class="header-right">
+            <a href="">
+                <i class="cart-icon"><img src="hinh/account.png" style="width: 40px;"></i>
+            </a>
+            <div class="username">Username</div>
+            <input type="text" class="search-bar" placeholder="Bạn muốn tìm gì?">
+            <a href="">
+                <i class="search-icon"><img src="hinh/search.png" style="width: 40px;"></i>
+            </a>
+            <a href="">
+                <i class="cart-icon"><img src="hinh/cart.png" style="width: 50px;"></i>
+            </a>
+        </div>
+    </header>
+    <div class="w-full bg-white shadow-md">
+        <div class="relative">
+            <img src="hinh/anh.jpeg" alt="A bowl of healthy food with vegetables and grains" class="w-full h-64 object-cover">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-50">
+                <h1 class="text-lg">WEEKLY MEAL PLAN</h1>
+                <h2 class="text-4xl font-bold">14.10 → 18.10</h2>
+                <button class="mt-4 px-6 py-2 green text-white rounded">Đặt Ngay</button>
+            </div>
+        </div>
+        <div class="p-8">
+            <h2 class="text1-red-600 text-2xl font-bold mb-4">THỰC ĐƠN</h2>
+            <hr class="custom-hr"/>
+            <br/>
+            <p class="mb-6">Từng bữa ăn được thiết kế bởi bếp trưởng cùng đội ngũ dinh dưỡng để đảm bảo được sự cân bằng trong hương vị nhưng vẫn giữ được chất lượng ở mức cao nhất. Tất cả các món đều đảm bảo ko bột ngọt và ít đường.</p>
+            <br/>
+            <br/>
+            <br/>
+            <div class="flex justify-between items-center mb-4" id="weekly-content">
+                <div class="text-gray-500 tuan">
+                    <i class="fas fa-chevron-left"></i> TUẦN TRƯỚC
+                </div>
+                <div class="text-lg font-bold">14.10 → 18.10</div>
+                <div class="text-gray-500 tuan">
+                    TUẦN SAU <i class="fas fa-chevron-right"></i>
+                </div>
+                <button class="px-6 py-2 green text-white rounded">Đặt Ngay</button>
+            </div>
+            <div class="bg-gray-200 p-4 rounded-lg">
+                <br/>
+                <div class="grid grid-cols-4 text-center font-bold text-gray-1500">
+                    <div>NGÀY</div>
+                    <div>SÁNG</div>
+                    <div>TRƯA</div>
+                    <div>TỐI</div>
+                </div>
+                <br/>
+                <div class="mt-4">
+                    <!-- Content for each day's meal -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T2</div>
+                            <div>14.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SALAD CÁ NGỪ</div>
+                            <div>Tuna Salad</div>
+                            <div class="text-red-600">350 Kcal | 29, 10, 35</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**CƠM LỨT THỊT BÒ** (NEW)</div>
+                            <div>**Beef with Brown Rice** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                550 Kcal | 41, 28, 35 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>                            
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">BÚN LỨT GÀ ÁP CHẢO</div>
+                            <div>Pan-fried Chicken and Brown rice Vermicelli</div>
+                            <div class="text-red-600">460 Kcal | 25, 20, 34</div>
+                        </div>
+                    </div>
+                    <!-- Tuesday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T3</div>
+                            <div>15.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SALAD BÒ</div>
+                            <div>Beef Salad</div>
+                            <div class="text-red-600">430 Kcal | 23, 25, 26</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">BÚN LỨT GÀ XÔNG KHÓI</div>
+                            <div>Brown Rice noodles with Smoked Chicken</div>
+                            <div class="text-red-600">568 Kcal | 32, 23, 45</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**CƠM LỨT CÁ HỒI NƯỚNG** (NEW)</div>
+                            <div>**Grilled Salmon Brown Rice** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                455 Kcal | 29, 22, 35 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Wednesday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T4</div>
+                            <div>16.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**SALAD GÀ ÁP CHẢO** (NEW)</div>
+                            <div>**Grilled Chicken Salad** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                550 Kcal | 38, 30, 30 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">CƠM LỨT TÔM HẤP</div>
+                            <div>Steamed Shrimp Brown Rice</div>
+                            <div class="text-red-600">470 Kcal | 32, 23, 32</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">KIMBAP CUỘN CƠM GẠO LỨT</div>
+                            <div>Brown Rice Kimbap</div>
+                            <div class="text-red-600">541 Kcal | 38, 25, 41</div>
+                        </div>
+                    </div>
+                    <!-- Thursday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T5</div>
+                            <div>17.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**SALAD TÔM** (NEW)</div>
+                            <div>**Shrimp Salad** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                456 Kcal | 26, 24, 34 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">CANH RONG BIỂN</div>
+                            <div>Seaweed Soup</div>
+                            <div class="text-red-600">532 Kcal | 40, 9, 50</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">GỎI CUỐN</div>
+                            <div>Spring Rolls</div>
+                            <div class="text-red-600">600 Kcal | 42, 24, 42</div>
+                        </div>
+                    </div>
+                    <!-- Friday -->
+                    <div class="grid grid-cols-4 gap-4 mb-4">
+                        <div class="bg200 p-4 rounded-lg">
+                            <div class="font-bold">T6</div>
+                            <div>18.10</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**SALAD TRỨNG RONG NHO** (NEW)</div>
+                            <div>**Seaweed Egg Salad** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                420 Kcal | 45, 10, 32 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">**BÚN LỨT THỊT BÒ** (NEW)</div>
+                            <div>**Brown Rice Noodles with Beef** (NEW)</div>
+                            <div class="text-red-600" style="display: inline-flex; align-items: center;">
+                                490 Kcal | 22, 29, 33 &nbsp;<img class="anhNEW" src="hinh/NEW.png">
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="font-bold">SÚP BÍ ĐỎ</div>
+                            <div>Pumpkin Soup</div>
+                            <div class="text-red-600">509 Kcal | 37, 12, 43</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="mt-6">
+                <h3 class="text-red-600 text-lg font-bold note">Note</h3>
+                <p class="text-gray-700 mt-2">Các phần ăn được tính toán calories cẩn thận. Chỉ số dinh dưỡng dưới tên phần ăn được liệt kê theo thứ tự Năng lượng (Kcal/Calories), Tinh Bột, Chất béo và Chất đạm.</p>
+                <p class="text-gray-700 mt-2">Lưu ý: Các phần ăn của FIT&FRESH luôn được giao lạnh, đựng trong hộp nhựa thân thiện với lò vi sóng. Vui lòng bảo quản lạnh sau khi nhận hàng và hâm nóng từ 2-3 phút trước khi dùng.</p>
+                <p class="text-gray-700 mt-2">Phần ăn bình thường chỉ bao gồm thịt và rau củ, Tinh bột phức (gạo lức, gạo nâu, mì rau củ, bún, bánh mì nâu) sẽ được gửi kèm trong phần ăn có ghi chú dấu (+).</p>
+            </div>
+        </div>
+    </div>
+        <!-- Footer Section -->
+<div class="footer">
+    <div class="footer-container">
+        <!-- Social Media and Contact Info -->
+        <div class="footer-column contact-info">
+            <h3>THEO DÕI CHÚNG TÔI TẠI</h3>
+            <div class="social-icons>
+            <a href="#"><img src="icon/4102573_applications_facebook_media_social_icon.png" alt="Facebook" width="30"></a>
+            <a href="#"><img src="icon/1161953_instagram_icon.png" alt="Instagram" width="30"></a>
+            </div>
+            <div>
+                <img src="icon/510927_location_map_marker_navigation_pin_icon.png" alt="Location" width="30">
+                <span>669 QL1, Khu phố 3, Phường Linh Xuân, Thủ Đức.</span>
+            </div>
+            <div>
+                <img src="icon/9025726_phone_icon.png" alt="Phone" width="30">
+                <span>(+84) 932 788 120</span>
+            </div>
+            <div>
+                <img src="icon/115714_email_send_mail_icon.png" alt="Email" width=30>
+                <span>fitfreshvn2004@gmail.com</span>
+            </div>
+        </div>
+
+        <!-- Product Categories -->
+        <div class="footer-column">
+            <h3>SẢN PHẨM</h3>
+            <a href="#">Bữa ăn healthy</a>
+            <a href="#">Thức uống healthy</a>
+            <a href="#">Sữa hạt healthy</a>
+            <a href="#">Snack healthy</a>
+            <a href="#">Các loại hạt</a>
+        </div>
+
+        <!-- About Section -->
+        <div class="footer-column">
+            <h3>VỀ FIT&FRESH.VN</h3>
+            <a href="#">About us</a>
+            <a href="#">Blog/Tin tức</a>
+        </div>
+
+        <!-- Support Policies -->
+        <div class="footer-column">
+            <h3>CHÍNH SÁCH HỖ TRỢ</h3>
+            <a href="#">FAQs - Giải đáp thắc mắc</a>
+            <a href="#">Chính Sách Quy Định Chung</a>
+            <a href="#">Quy Định Hình Thức Thanh Toán</a>
+            <a href="#">Chính Sách Vận Chuyển Giao Hàng</a>
+            <a href="#">Chính Sách Bảo Mật Thông Tin</a>
+        </div>
+
+        <!-- Subscribe Section -->
+        <div class="footer-column subscribe">
+            <h3>ĐĂNG KÝ NHẬN MAIL</h3>
+            <input type="text" id="emailInput" placeholder="Đăng ký để nhận ưu đãi">
+            <button id="subscribeButton">ĐĂNG KÝ</button>
+            <!-- Success message container -->
+            <div id="successMessage" style="display: none; color: #e6e6e6; margin-top: 10px;"></div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('subscribeButton').addEventListener('click', function() {
+        const emailInput = document.getElementById('emailInput').value;
+        const successMessage = document.getElementById('successMessage');
+        if (emailInput) {
+            successMessage.textContent = 'Bạn đã đăng ký thành công';
+            successMessage.style.display = 'block';
+        } else {
+            successMessage.textContent = 'Vui lòng nhập email trước khi đăng ký';
+            successMessage.style.display = 'block';
+        }
+});
+    </script>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        Copyright © 2022 FIT&FRESH.VN. All rights reserved.
+    </div>
+    <img src="https://cdn1.iconfinder.com/data/icons/happy-trees/100/tree-green-nature-curly-512.png" alt="Tree Icon" class="tree-icon">
+</div>
+</body>
+</html>
